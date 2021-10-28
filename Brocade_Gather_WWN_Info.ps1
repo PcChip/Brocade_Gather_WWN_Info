@@ -5,7 +5,7 @@
 
 import-module posh-ssh
 
-#New-SSHSession -ComputerName "10.100.100.50" -Credential (Get-Credential admin)
+New-SSHSession -ComputerName "10.100.100.50" -Credential (Get-Credential admin)
 $switchName = (Invoke-SSHCommand -index 0 -Command "switchname").output
 
 class WWNInfo {
