@@ -1,4 +1,4 @@
-#collect WWNs from Aliases and Zones
+#Brocade - collect WWNs from Aliases and Zones
 #gather info about each WWN
 #tested with FOS v7.2.1
 #Mike Dawson 7/28/2021
